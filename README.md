@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🕶️ Oculos Store
 
-## Getting Started
+Bem-vindo ao projeto **Oculos Store**! Este é um e-commerce fictício de óculos, desenvolvido com Next.js, React e Tailwind CSS, focado em responsividade, performance e design moderno.
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 📁 Estrutura do Projeto
+
+```
+├── public/
+│   ├── logo.png
+│   ├── menu.svg
+│   ├── x.svg
+│   └── ...
+├── src/
+│   ├── app/
+│   │   ├── layout.js
+│   │   └── page.js
+│   └── components/
+│       ├── Header/
+│       ├── Footer/
+│       ├── Card/
+│       ├── Button/
+│       └── ...
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Funcionalidades
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Menu responsivo com toggle para mobile
+- Componentes reutilizáveis (Header, Footer, Card, Button)
+- Navegação otimizada com Next.js
+- Estilização moderna com Tailwind CSS
+- Imagens otimizadas com o componente `Image` do Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖥️ Como rodar o projeto
 
-## Learn More
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/oculos-store.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o projeto:
+   ```bash
+   npm run dev
+   ```
+4. Acesse em [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Preview do projeto](public/hero.jpg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Autor
 
-## Deploy on Vercel
+Desenvolvido por [Seu Nome](https://github.com/seu-usuario) com 💜
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Sinta-se à vontade para contribuir, sugerir melhorias ou reportar issues!
