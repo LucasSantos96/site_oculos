@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#ffffff28] flex py-2 px-4 m-4 border border-[#F26B1D30] rounded-full justify-between items-center shadow-[2px_4px_24px_0_#F26B1D30] lg:mx-32">
+    <header className="bg-[#ffffff28] flex py-2 px-4 m-4 border border-[#F26B1D30] rounded-full justify-between items-center shadow-[2px_4px_24px_0_#F26B1D30] lg:mx-32 lg:px-8">
       <div>
         <Image src="/logo.png" alt="logo sol" width={50} height={50} />
       </div>
@@ -49,7 +49,7 @@ const Header = () => {
       </div>
 
       {/*Menu desktop */}
-      <div className="text-[#F24405] hidden lg:flex gap-4 ">
+      <div className="text-[#F24405] hidden lg:flex gap-6  lg:font-medium">
         <Link href=""> Óculos de sol </Link>
         <Link href=""> Óculos de gráu </Link>
         <Link href=""> Novidades </Link>
