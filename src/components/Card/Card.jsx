@@ -10,7 +10,7 @@ const Card = (props) => {
             alt='img'
             width={320}
             height={100}
-            className='rounded-2xl w-[300px] h-[300px] '
+            className='rounded-2xl w-[270px] h-[280px] '
             />
         </div>
         <div className='flex justify-between mt-2'>

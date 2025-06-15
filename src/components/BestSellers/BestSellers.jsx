@@ -12,7 +12,7 @@ const BestSellers = () => {
           <Link href=''><p className='text-[#F2440599] font-medium'>Ver Todos</p> </Link>  
             </div>
 
-        <div className='mt-10 space-y-6 flex flex-col lg:flex-row lg:space-x-8 lg:flex-wrap '>
+        <div className='mt-10 space-y-6 flex flex-col lg:flex-row lg:space-x-6 lg:flex-wrap '>
             <Card linkImg='/oculos1.jpg' name='Casual' price='350,90'/>
             <Card linkImg='/oculos2.jpg' name='Descolado' price='278,45'/>
             <Card linkImg='/oculos3.jpg' name='Style' price='350,90'/>
