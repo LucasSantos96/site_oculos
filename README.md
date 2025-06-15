@@ -60,7 +60,7 @@ Bem-vindo ao projeto **Oculos Store**! Este é um e-commerce fictício de óculo
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario) com 💜
+Desenvolvido por Lucas Santos (https://github.com/LucasSantos96) com 💜
 
 ---
 
